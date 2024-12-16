@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  overflow-x:hidden !important;
+  scroll-behavior: smooth !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5, a, label {
+  font-family: Montserrat, sans-serif;
+}
+
+p, li, .copy {
+  font-family: Poppins, sans-serif;
+}
+
+button {
+  font-family: Montserrat, sans-serif;
+}
+
+.btn-eliminar{
+background-color: rgb(252 165 165);;
+}
+
+@media (min-width: 1024px) {
+  body .custom-width {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1200px;
+  }
+}
